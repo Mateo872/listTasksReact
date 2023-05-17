@@ -1,7 +1,12 @@
-import { ListGroup } from "react-bootstrap";
+import { Button, ListGroup } from "react-bootstrap";
 
 const ItemTake = () => {
-  return <ListGroup.Item>Cras justo</ListGroup.Item>;
+  return (
+    <ListGroup.Item className="d-flex justify-content-between align-items-center">
+      Cras justo
+      <Button variant="danger">Borrar</Button>
+    </ListGroup.Item>
+  );
 };
 
 export default ItemTake;
