@@ -10,3 +10,10 @@
 .main_page {
     flex-grow: 1;
 }
+
+.message_empty {
+    margin-top: 1rem;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
